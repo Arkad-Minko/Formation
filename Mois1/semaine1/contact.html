@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <H1>Contact</H1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="projets.html">Projets</a>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="sujet">Sujet</label>
+            <select name="sujet" id="sujet">
+                <option value="python">Python</option>
+                <option value="frontend">Front-end</option>
+                <option value="postgresql">PostgreSQL</option>
+                <option value="java">Java</option>
+                <option value="react">Réact Native</option>
+            </select>
+            <label for="recevoirreponse">Je souhaite recevoir une réponse</label>
+            <input type="checkbox" name="recevoirreponse" id="recevoirreponse">
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+</body>
+</html>
